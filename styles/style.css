@@ -1,0 +1,241 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+/*POR DEFECTO*/
+* {
+    margin: 0.05%;
+    padding: 0.05%;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    display: flex;
+    padding: 15px 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/fondonegro.jpg);
+    background-size: contain;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+ul li a:hover {
+    background-color: #555;
+    color: white;
+    font-size: 22px;
+    border-radius: 30px;
+    border: 3px solid white;
+
+}
+
+ul li a {
+    color: gold;
+    font-size: 20px;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+
+.p4 {
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    transition: 0.5s;
+
+}
+
+.p4:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* CONTENIDO PRINCIPAL */
+main {
+    width: 100%;
+    background-image: url(../img/blancotextura.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.hrborder {
+    border: 0;
+    height: 0;
+    box-shadow: 0 1px 5px 1px gold;
+}
+
+.titulo1 {
+    font-size: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    text-decoration: underline;
+}
+
+.t1 {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    border: 3px solid gold;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+
+.t2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secciongaleria {
+
+    display: flex;
+    justify-content: center;
+}
+
+.itf {
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.imagenindex1 {
+    width: 300px;
+    border-radius: 20px;
+    flex: wrap;
+}
+
+.fotogaleria {
+    border-radius: 15px;
+}
+
+.flecha2 {
+    filter: brightness(1.2);
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 100px;
+
+}
+
+.texto1 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 25px;
+}
+
+.localizacion1 {
+    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
+    margin: 15px 15px;
+    padding: 50px 150px;
+    display: inline-block;
+    border: 3px solid gold;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.fieldsetlocali {
+    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
+    margin: 20px 15px;
+    padding: 50px 150px;
+    display: inline-block;
+    border: 3px solid gold;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.fieldhistoria {
+    background-color: black;
+    border-radius: 30px;
+    border: 3px solid gold;
+
+
+}
+
+.texto6 {
+    color: white;
+}
+
+.texto11 {
+    color: white;
+    flex-direction: column;
+}
+
+.formulario1 {
+    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
+    border-radius: 15px;
+    border: 3px solid gold;
+}
+
+.form1 {
+    font-size: 20px;
+    color: black;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.form1:hover {
+    color: white;
+    background-color: rgb(17, 16, 16);
+    border-color: gold
+}
+
+.textoform {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.p2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.p3 {
+    font-size: 30px;
+    color: white;
+}
+
+
+/* PIE DE PAGINA */
+footer {
+    color: black;
+    background-image: url(../img/fondonaranja.jpg);
+    background-size: contain;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.p1 {
+    font-size: 25px;
+}
+
+.iconored:hover {
+    transform: scale(1.1);
+}
+
+.footer1 {
+    font-family: 'Concert One', cursive;
+    font-size: 15px;
+}
