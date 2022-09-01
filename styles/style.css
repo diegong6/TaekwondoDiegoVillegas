@@ -28,12 +28,14 @@ header {
 ul {
     display: flex;
     gap: 30px;
-
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 ul li a:hover {
     background-color: #555;
-    color: white;
+    color: gold;
     font-size: 22px;
     border-radius: 30px;
     border: 3px solid white;
@@ -41,7 +43,7 @@ ul li a:hover {
 }
 
 ul li a {
-    color: gold;
+    color: white;
     font-size: 20px;
     transition: 0.5s;
     border-radius: 30px;
