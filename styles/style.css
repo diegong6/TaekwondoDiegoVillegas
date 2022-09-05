@@ -14,19 +14,23 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+
+
 /* HEADER */
 header {
-    width: 100%;
     display: flex;
+    width: 100%;
     padding: 15px 60px;
     justify-content: space-between;
     align-items: center;
-    background-image: url(../img/fondonegro.jpg);
+    background-image: url(../img/fondonegrotextura.jpg);
     background-size: contain;
 }
 
 ul {
     display: flex;
+    width: 100%;
     gap: 30px;
     background-color: black;
     border-radius: 15px;
@@ -63,8 +67,10 @@ ul li a {
 
 
 
+
+
 /* CONTENIDO PRINCIPAL */
-main {
+.main {
     width: 100%;
     background-image: url(../img/blancotextura.jpg);
     background-size: cover;
@@ -87,6 +93,8 @@ main {
     align-items: center;
     font-family: 'Permanent Marker', cursive;
     text-decoration: underline;
+    background-image: url(../img/fondonaranja.jpg);
+    background-size: cover;
 }
 
 .t1 {
@@ -109,6 +117,20 @@ main {
     align-items: center;
 }
 
+.promocion1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    border: 3px solid gold;
+    border-radius: 30px;
+    color: gold;
+    background-color: black;
+}
+
 .secciongaleria {
 
     display: flex;
@@ -116,18 +138,38 @@ main {
 }
 
 .itf {
-    filter: brightness(1.1);
-    mix-blend-mode: multiply;
+    border-radius: 100px;
 }
 
 .imagenindex1 {
-    width: 300px;
+
+    width: 400px;
+    height: 500px;
     border-radius: 20px;
-    flex: wrap;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .fotogaleria {
     border-radius: 15px;
+    width: 500px;
+    height: 300px;
+}
+
+.fotogaleria1 {
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+}
+
+.fotogaleria2 {
+    border-radius: 15px;
+    width: 250px;
+    height: 300px;
+
 }
 
 .flecha2 {
@@ -142,6 +184,12 @@ main {
     font-size: 20px;
     line-height: 20px;
     margin-bottom: 25px;
+}
+
+.colortex {
+    color: gold;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
 .localizacion1 {
@@ -165,7 +213,7 @@ main {
 }
 
 .fieldhistoria {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     border-radius: 30px;
     border: 3px solid gold;
 
@@ -174,6 +222,15 @@ main {
 
 .texto6 {
     color: white;
+}
+
+.texto3 {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Permanent Marker', cursive;
+    border: 3px solid gold;
+    border-radius: 30px;
+    padding: 20px;
 }
 
 .texto11 {
@@ -219,12 +276,21 @@ main {
     color: white;
 }
 
+.bord1 {
+    border: 2px solid gold;
+    border-radius: 30px;
+    padding: 30px;
+
+}
+
+
+
 
 /* PIE DE PAGINA */
 footer {
     color: black;
     background-image: url(../img/fondonaranja.jpg);
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     padding: 25px 0px;
 }
@@ -240,4 +306,68 @@ footer {
 .footer1 {
     font-family: 'Concert One', cursive;
     font-size: 15px;
+}
+
+
+
+/*GRIDS*/
+
+.grid1 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 10fr);
+    grid-template-rows: repeat(4, 10fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+    padding: 30px;
+}
+
+.tituloprincipal {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+.septiembre {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.fotopromo {
+    grid-area: 2 / 2 / 5 / 3;
+}
+
+.textopromo {
+    grid-area: 3 / 1 / 5 / 2;
+}
+
+
+.grid2 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 5fr);
+    grid-template-rows: repeat(3, 10fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
+}
+
+.fot1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.fot2 {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.fot3 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.fot4 {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.fot5 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.fot6 {
+    grid-area: 3 / 2 / 4 / 3;
 }
