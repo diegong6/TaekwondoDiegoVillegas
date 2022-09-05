@@ -90,7 +90,7 @@ ul li a {
     line-height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
     font-family: 'Permanent Marker', cursive;
     text-decoration: underline;
     background-image: url(../img/fondonaranja.jpg);
@@ -146,7 +146,7 @@ ul li a {
     width: 400px;
     height: 500px;
     border-radius: 20px;
-    display: inline-block;
+    display: flex;
     justify-content: center;
     align-items: center;
 
@@ -324,18 +324,24 @@ footer {
 
 .tituloprincipal {
     grid-area: 1 / 1 / 2 / 3;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .septiembre {
     grid-area: 2 / 1 / 3 / 2;
+    display: flex;
 }
 
 .fotopromo {
     grid-area: 2 / 2 / 5 / 3;
+    display: flex;
 }
 
 .textopromo {
     grid-area: 3 / 1 / 5 / 2;
+
 }
 
 
@@ -350,24 +356,30 @@ footer {
 
 .fot1 {
     grid-area: 1 / 1 / 2 / 2;
+    display: flex;
 }
 
 .fot2 {
     grid-area: 1 / 2 / 2 / 3;
+    display: flex;
 }
 
 .fot3 {
     grid-area: 2 / 1 / 3 / 2;
+    display: flex;
 }
 
 .fot4 {
     grid-area: 2 / 2 / 3 / 3;
+    display: flex;
 }
 
 .fot5 {
     grid-area: 3 / 1 / 4 / 2;
+    display: flex;
 }
 
 .fot6 {
     grid-area: 3 / 2 / 4 / 3;
+    display: flex;
 }
