@@ -201,26 +201,6 @@ ul li a {
 
 }
 
-.localizacion1 {
-    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
-    margin: 15px 15px;
-    padding: 50px 150px;
-    display: inline-block;
-    border: 3px solid gold;
-    border-radius: 30px;
-    box-sizing: border-box;
-}
-
-.fieldsetlocali {
-    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
-    margin: 20px 15px;
-    padding: 50px 150px;
-    display: inline-block;
-    border: 3px solid gold;
-    border-radius: 30px;
-    box-sizing: border-box;
-}
-
 .textohistoria {
     display: flex;
     justify-content: center;
