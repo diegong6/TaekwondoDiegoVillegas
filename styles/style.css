@@ -28,31 +28,6 @@ header {
     background-size: contain;
 }
 
-ul {
-    display: flex;
-    width: 100%;
-    gap: 30px;
-    background-color: black;
-    border-radius: 15px;
-    padding: 15px;
-}
-
-ul li a:hover {
-    background-color: #555;
-    color: gold;
-    font-size: 22px;
-    border-radius: 30px;
-    border: 3px solid white;
-
-}
-
-ul li a {
-    color: white;
-    font-size: 20px;
-    transition: 0.5s;
-    border-radius: 30px;
-}
-
 .p4 {
     width: 250px;
     height: 200px;
@@ -65,9 +40,40 @@ ul li a {
     transform: scale(1.1);
 }
 
+.nav1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    border: 3px outset gold;
 
+}
 
+.navtexto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 17px;
+    transition: 0.5s;
 
+}
+
+.navtexto:hover {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 30px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+
+}
 
 /* CONTENIDO PRINCIPAL */
 .main {
@@ -177,8 +183,8 @@ ul li a {
 
 .fotogaleria4 {
     border-radius: 15px;
-    width: 300px;
-    height: 250px;
+    width: 500px;
+    height: 500px;
 }
 
 .flecha2 {
