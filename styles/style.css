@@ -18,11 +18,12 @@
 
 
 /* HEADER */
+
 header {
     display: flex;
     width: 100%;
     padding: 15px 60px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-image: url(../img/fondonegrotextura.jpg);
     background-size: contain;
@@ -33,7 +34,7 @@ header {
     height: 200px;
     border-radius: 50px;
     transition: 0.5s;
-
+    margin: 20px;
 }
 
 .p4:hover {
@@ -48,7 +49,7 @@ header {
     background-color: white;
     color: black;
     border: 3px outset gold;
-
+    margin: 20px;
 }
 
 .navtexto {
@@ -58,6 +59,8 @@ header {
     color: black;
     font-family: 'Permanent Marker', cursive;
     font-size: 17px;
+    border: 2px solid #fff;
+    border-radius: 30px;
     transition: 0.5s;
 
 }
@@ -75,21 +78,16 @@ header {
 
 }
 
+
 /* CONTENIDO PRINCIPAL */
-.main {
-    width: 100%;
+
+main {
     background-image: url(../img/blancotextura.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
 
-.hrborder {
-    border: 0;
-    height: 0;
-    box-shadow: 0 1px 5px 1px gold;
-}
 
 .titulo1 {
     font-size: 50px;
@@ -101,10 +99,66 @@ header {
     text-decoration: underline;
     background-image: url(../img/fondonaranja.jpg);
     background-size: cover;
+    color: black;
+}
+
+.itf {
+    border-radius: 100px;
+    width: 75px;
+    height: 75px;
+}
+
+.bord1 {
+    border: 2px solid gold;
+    padding: 30px;
+
+}
+
+.promocion1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    border: 3px solid gold;
+    border-radius: 30px;
+    color: gold;
+    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
+}
+
+
+.imagenindex1 {
+
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.texto3 {
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
+    font-family: 'Permanent Marker', cursive;
+    border: 3px solid gold;
+    border-radius: 30px;
+    padding: 20px;
+    width: 100%;
+}
+
+.colortex {
+    color: gold;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
 .t1 {
-    display: inline-block;
+    display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -117,99 +171,10 @@ header {
     background-image: linear-gradient(to right, black, rgb(82, 76, 76));
 }
 
-.promocion1 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    padding: 20px;
-    font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
-    border: 3px solid gold;
-    border-radius: 30px;
-    color: gold;
-    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
-}
-
-.secciongaleria {
-
-    display: flex;
-    justify-content: center;
-}
-
-.itf {
-    border-radius: 100px;
-    width: 75px;
-    height: 75px;
-}
-
-.imagenindex1 {
-
-    width: 400px;
-    height: 500px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.fotogaleria {
-    border-radius: 15px;
-    width: 500px;
-    height: 300px;
-}
-
-.fotogaleria1 {
-    border-radius: 15px;
-    width: 300px;
-    height: 250px;
-}
-
-.fotogaleria2 {
-    border-radius: 15px;
-    width: 250px;
-    height: 300px;
-    margin-right: 50px;
-}
-
-.fotogaleria22 {
-    border-radius: 15px;
-    width: 250px;
-    height: 300px;
-    margin-left: 50px;
-}
-
-.fotogaleria4 {
-    border-radius: 15px;
-    width: 500px;
-    height: 500px;
-}
-
-.flecha2 {
-    filter: brightness(1.2);
-    mix-blend-mode: multiply;
-    width: 150px;
-    height: 100px;
-
-}
-
-.texto1 {
-    font-size: 20px;
-    line-height: 20px;
-    margin-bottom: 25px;
-}
-
-.colortex {
-    color: gold;
-    font-family: 'Permanent Marker', cursive;
-
-}
-
 .textohistoria {
     display: flex;
     justify-content: center;
+    text-align: center;
     background-color: black;
     color: #fff;
     font-size: 17px;
@@ -220,29 +185,86 @@ header {
 
 }
 
-.texto3 {
-    color: #fff;
-    background-image: linear-gradient(to right, black, rgb(82, 76, 76));
-    font-family: 'Permanent Marker', cursive;
-    border: 3px solid gold;
+.p2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.c3 {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+
+.fotogaleria {
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+}
+
+.fotogaleria2 {
     border-radius: 30px;
-    padding: 20px;
+}
+
+.c4 {
+    display: flex;
+    width: 350px;
+    height: 450px;
+    margin: auto;
+}
+
+.c1 {
+    display: flex;
+    width: 700px;
+    height: 600px;
+    margin: auto;
+
+}
+
+.c2 {
+    border-radius: 30px;
+
 }
 
 .texto11 {
-    display: inline-block;
+    display: flex;
     color: white;
     border: 3px solid gold;
     background-image: linear-gradient(to right, black, rgb(82, 76, 76));
     border-radius: 30px;
     padding: 30px;
     font-size: 25px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.flecha2 {
+    display: flex;
+    filter: brightness(1.2);
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 100px;
+    margin: auto;
 }
 
 .formulario1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     background-image: linear-gradient(to right, black, rgb(82, 76, 76));
     border-radius: 15px;
     border: 3px solid gold;
+    margin: auto;
+    width: 500px;
 }
 
 .form1 {
@@ -264,30 +286,12 @@ header {
 .textoform {
     color: white;
     text-decoration: underline;
-
 }
-
-.p2 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 25px;
-}
-
-.p3 {
-    font-size: 30px;
-    color: white;
-}
-
-.bord1 {
-    border: 2px solid gold;
-    border-radius: 30px;
-    padding: 30px;
-
-}
-
 
 
 
 /* PIE DE PAGINA */
+
 footer {
     color: black;
     background-image: url(../img/fondonaranja.jpg);
@@ -316,84 +320,6 @@ footer {
     color: black;
 }
 
-
-
-/*GRIDS*/
-
-.grid1 {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2, 10fr);
-    grid-template-rows: repeat(4, 10fr);
-    grid-column-gap: 100px;
-    grid-row-gap: 100px;
-    padding: 30px;
-}
-
-.tituloprincipal {
-    grid-area: 1 / 1 / 2 / 3;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.septiembre {
-    grid-area: 2 / 1 / 3 / 2;
-    display: flex;
-}
-
-.fotopromo {
-    grid-area: 2 / 2 / 5 / 3;
-    display: flex;
-    justify-content: right;
-}
-
-.textopromo {
-    grid-area: 3 / 1 / 5 / 2;
-
-}
-
-
-.grid2 {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2, 5fr);
-    grid-template-rows: repeat(3, 10fr);
-    grid-column-gap: 100px;
-    grid-row-gap: 100px;
-}
-
-.fot1 {
-    grid-area: 1 / 1 / 2 / 2;
-    display: flex;
-}
-
-.fot2 {
-    grid-area: 1 / 2 / 2 / 3;
-    display: flex;
-}
-
-.fot3 {
-    grid-area: 2 / 1 / 3 / 2;
-    display: flex;
-}
-
-.fot4 {
-    grid-area: 2 / 2 / 3 / 3;
-    display: flex;
-}
-
-.fot5 {
-    grid-area: 3 / 1 / 4 / 2;
-    display: flex;
-}
-
-.fot6 {
-    grid-area: 3 / 2 / 4 / 3;
-    display: flex;
-}
-
-
 /*MOBILE*/
 
 @media screen and (max-width: 750px) {
@@ -411,59 +337,62 @@ footer {
 
     ul {
         display: flex;
+        flex-direction: column;
         width: 100%;
         gap: 10px;
-        background-color: black;
-        border-radius: 15px;
-        padding: 5px;
+
     }
 
-    ul li a {
-        color: white;
-        font-size: 15px;
+    .nav1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
         border-radius: 30px;
+        background-color: white;
+        color: black;
+        border: 3px outset gold;
+
+    }
+
+    .navtexto {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: black;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        border-radius: 15px;
+        transition: 0.5s;
+        padding: 10px;
+    }
+
+    .navtexto:hover {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        border: 2px solid black;
+        background-color: black;
+        border-radius: 15px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+
     }
 
     .p4 {
-        width: 150px;
-        height: 100px;
+        width: 200px;
+        height: 150px;
         border-radius: 25px;
 
     }
 
 
-    .grid1 {
-        display: grid;
-        width: 100%;
-        grid-template-columns: 5fr;
-        grid-template-rows: repeat(2, 2fr) 5fr 3fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 50px;
-        padding: 30px;
+    .itf {
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
     }
 
-    .tituloprincipal {
-        grid-area: 1 / 1 / 2 / 2;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .septiembre {
-        grid-area: 2 / 1 / 3 / 2;
-        display: flex;
-    }
-
-    .fotopromo {
-        grid-area: 3 / 1 / 4 / 2;
-        display: flex;
-        justify-content: center;
-    }
-
-    .textopromo {
-        grid-area: 4 / 1 / 5 / 2;
-
-    }
 
     .titulo1 {
         font-size: 25px;
@@ -476,19 +405,6 @@ footer {
         background-size: cover;
     }
 
-    .promocion1 {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-        font-family: 'Permanent Marker', cursive;
-        font-size: 15px;
-        border: 3px solid gold;
-        border-radius: 30px;
-        color: gold;
-        background-color: black;
-    }
-
     .imagenindex1 {
 
         width: 300px;
@@ -499,34 +415,52 @@ footer {
 
     }
 
-    .texto3 {
-        color: #fff;
-        font-size: 15px;
-        background-color: rgb(0, 0, 0);
-        font-family: 'Permanent Marker', cursive;
-        border: 3px solid gold;
-        border-radius: 30px;
-        padding: 20px;
-    }
-
-    .itf {
-        border-radius: 100px;
-        width: 40px;
-        height: 40px;
-    }
-
-
-    .t1 {
-        display: inline-block;
+    .promocion1 {
+        display: flex;
         justify-content: center;
         text-align: center;
         padding: 20px;
         font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+        border: 3px solid gold;
+        border-radius: 30px;
+        color: gold;
+        background-image: linear-gradient(to right, black, rgb(82, 76, 76));
+    }
+
+    .texto3 {
+        display: inline-block;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        background-image: linear-gradient(to right, black, rgb(82, 76, 76));
+        font-family: 'Permanent Marker', cursive;
         font-size: 15px;
         border: 3px solid gold;
         border-radius: 30px;
-        color: white;
-        background-color: black;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .colortex {
+        color: gold;
+        font-family: 'Permanent Marker', cursive;
+
+    }
+
+    .iconored {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        color: black;
+    }
+
+    .p1 {
+        font-size: 20px;
     }
 
     .textohistoria {
@@ -548,109 +482,68 @@ footer {
         height: 200px;
     }
 
-    .fotogaleria1 {
-        border-radius: 15px;
-        width: 200px;
-        height: 200px;
-    }
-
-    .fotogaleria2 {
-        border-radius: 15px;
-        width: 150px;
-        height: 200px;
-        margin-right: 30px;
-    }
-
-    .fotogaleria22 {
-        border-radius: 15px;
-        width: 150px;
-        height: 200px;
-    }
-
-    .fotogaleria4 {
-        border-radius: 15px;
-        width: 180px;
-        height: 190px;
-    }
-
-    .p2 {
-        font-family: 'Dancing Script', cursive;
-        font-size: 20px;
-    }
-
-
-    .grid2 {
-        display: grid;
-        width: 100%;
-        grid-template-columns: repeat(2, 2fr);
-        grid-template-rows: repeat(3, 2fr);
-        grid-column-gap: 7px;
-        grid-row-gap: 10px;
-    }
-
-    .fot1 {
-        grid-area: 1 / 1 / 2 / 2;
+    .c3 {
         display: flex;
+        width: 300px;
+        height: 300px;
+        margin: auto;
     }
 
-    .fot2 {
-        grid-area: 1 / 2 / 2 / 3;
+    .t1 {
         display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 20px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        border: 3px solid gold;
+        border-radius: 30px;
+        color: white;
+        background-image: linear-gradient(to right, black, rgb(82, 76, 76));
     }
 
-    .fot3 {
-        grid-area: 2 / 1 / 3 / 2;
+    .c1 {
         display: flex;
+        width: 300px;
+        height: 225px;
+        margin: auto;
+
     }
 
-    .fot4 {
-        grid-area: 2 / 2 / 3 / 3;
+
+    .c4 {
         display: flex;
+        width: 250px;
+        height: 350px;
+        margin: auto;
     }
-
-    .fot5 {
-        grid-area: 3 / 1 / 4 / 2;
-        display: flex;
-    }
-
-    .fot6 {
-        grid-area: 3 / 2 / 4 / 3;
-        display: flex;
-    }
-
 
     .texto11 {
-        display: inline-block;
+        display: flex;
         color: white;
         border: 3px solid gold;
         background-image: linear-gradient(to right, black, rgb(82, 76, 76));
         border-radius: 30px;
         padding: 30px;
         font-size: 20px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        width: 275px;
     }
 
-
-
-
-
-
-
-
-    .p1 {
-        font-size: 20px;
+    .formulario1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-image: linear-gradient(to right, black, rgb(82, 76, 76));
+        border-radius: 15px;
+        border: 3px solid gold;
+        margin: auto;
+        width: 300px;
     }
-
-    .iconored {
-        width: 30px;
-        height: 30px;
-    }
-
-    .footer1 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 10px;
-        color: black;
-    }
-
-
 
 }
