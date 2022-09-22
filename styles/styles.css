@@ -1,0 +1,512 @@
+/*POR DEFECTO*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+* {
+  margin: 0.05%;
+  padding: 0.05%;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/*FONTS*/ /* HEADER */
+header {
+  display: flex;
+  width: 100%;
+  padding: 15px 60px;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../img/fondonegrotextura.jpg);
+  background-size: contain;
+}
+
+.p4 {
+  width: 250px;
+  height: 200px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 20px;
+}
+.p4:hover {
+  transform: scale(1.1);
+}
+
+.nav1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #000000;
+  border: 3px outset #ffd700;
+  margin: 20px;
+}
+
+.navtexto {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #000000;
+  font-family: "Permanent Marker", cursive;
+  font-size: 17px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.navtexto:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  border: 2px solid #000000;
+  background-color: #000000;
+  border-radius: 30px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 20px;
+}
+
+/* CONTENIDO PRINCIPAL */
+main {
+  background-image: url(../img/blancotextura.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.titulo1 {
+  font-size: 70px;
+  line-height: 65px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Titan One", cursive;
+  background-image: url(../img/fondonaranja2.jpg);
+  background-size: contain;
+  color: #000000;
+}
+
+.itf {
+  border-radius: 100px;
+  width: 75px;
+  height: 75px;
+}
+
+.bord1 {
+  border: 2px solid #ffd700;
+  padding: 30px;
+}
+
+.promocion1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 35px;
+  border: 3px solid #ffd700;
+  margin: auto;
+  width: 500px;
+  color: #ffd700;
+  background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
+}
+
+.t1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 500px;
+  padding: 20px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 30px;
+  border: 3px solid #ffd700;
+  border-radius: 30px;
+  color: #fff;
+  background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
+}
+
+.textohistoria {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #000000;
+  color: #fff;
+  font-size: 17px;
+  border: 2px solid #ffd700;
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 25px;
+}
+
+.p2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+
+.c3 {
+  display: flex;
+  width: 600px;
+  height: 600px;
+  margin: auto;
+}
+
+.fotogaleria {
+  border-radius: 15px;
+  width: 1000px;
+  height: 400px;
+}
+
+.fotogaleria2 {
+  border-radius: 30px;
+}
+
+.c4 {
+  display: flex;
+  width: 350px;
+  height: 450px;
+  margin: auto;
+}
+
+.c1 {
+  display: flex;
+  width: 700px;
+  height: 600px;
+  margin: auto;
+}
+
+.c2 {
+  border-radius: 30px;
+}
+
+.texto11 {
+  display: flex;
+  color: #fff;
+  border: 3px solid #ffd700;
+  background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
+  border-radius: 30px;
+  padding: 30px;
+  font-size: 25px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  width: 500px;
+}
+
+.flecha2 {
+  display: flex;
+  filter: brightness(1.2);
+  mix-blend-mode: multiply;
+  width: 150px;
+  height: 100px;
+  margin: auto;
+}
+
+.formulario1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
+  border-radius: 15px;
+  border: 3px solid #ffd700;
+  margin: auto;
+  width: 500px;
+}
+
+.form1 {
+  font-size: 20px;
+  color: #000000;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 15px;
+  border-color: #fff;
+}
+.form1:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #ffd700;
+}
+
+.textoform {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.fotocard1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: auto;
+  height: 500px;
+  background-color: #000000;
+}
+
+.textcard {
+  color: #fff;
+  font-size: 45px;
+  font-family: "Permanent Marker", cursive;
+  border: 1px solid #000000;
+}
+
+.textcard1 {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.fondocard {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+
+.cardtamano {
+  width: auto;
+}
+
+/* PIE DE PAGINA */
+footer {
+  color: #000000;
+  background-image: url(../img/fondonaranja2.jpg);
+  background-size: contain;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.p1 {
+  font-size: 25px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.iconored {
+  width: 50px;
+  height: 50px;
+  transition: 0.2s;
+}
+.iconored:hover {
+  transform: scale(1.1);
+}
+
+.footer1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  color: #000000;
+}
+
+/*MOBILE*/
+@media screen and (max-width: 1165px) {
+  .fotocard1 {
+    width: 700px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 995px) {
+  .fotocard1 {
+    width: 600px;
+    height: 300px;
+  }
+  .textcard {
+    font-size: 15px;
+  }
+  .textcard1 {
+    font-size: 15px;
+  }
+  .cardtamano {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 60px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/fondonegrotextura.jpg);
+    background-size: contain;
+  }
+  header ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .nav1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000000;
+    border: 3px outset #ffd700;
+  }
+  .navtexto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    font-family: "Permanent Marker", cursive;
+    font-size: 15px;
+    border-radius: 15px;
+    transition: 0.5s;
+    padding: 10px;
+  }
+  .navtexto:active {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    border: 2px solid #000000;
+    background-color: #000000;
+    border-radius: 15px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+  }
+  .p4 {
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+  }
+  .itf {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+  }
+  .titulo1 {
+    font-size: 20px;
+    line-height: 65px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/fondonaranja2.jpg);
+    background-size: contain;
+    color: #000000;
+  }
+  .promocion1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    border: 3px solid #ffd700;
+    margin: auto;
+    width: 250px;
+    color: #ffd700;
+    background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
+  }
+  .iconored {
+    width: 30px;
+    height: 30px;
+  }
+  .footer1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 10px;
+    color: #000000;
+  }
+  .p1 {
+    font-size: 15px;
+  }
+  .textohistoria {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    color: #fff;
+    font-size: 15px;
+    border: 2px solid #ffd700;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 25px;
+  }
+  .fotogaleria {
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+  }
+  .c3 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+  .t1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 200px;
+    padding: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-size: 15px;
+    border: 3px solid #ffd700;
+    border-radius: 30px;
+    color: #fff;
+    background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
+  }
+  .c1 {
+    display: flex;
+    width: 300px;
+    height: 225px;
+    margin: auto;
+  }
+  .c4 {
+    display: flex;
+    width: 250px;
+    height: 350px;
+    margin: auto;
+  }
+  .texto11 {
+    display: flex;
+    color: #fff;
+    border: 3px solid #ffd700;
+    background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: 275px;
+  }
+  .formulario1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
+    border-radius: 15px;
+    border: 3px solid #ffd700;
+    margin: auto;
+    width: 300px;
+  }
+  .fotocard1 {
+    width: 250px;
+    height: 150px;
+  }
+  .textcard {
+    font-size: 15px;
+  }
+  .textcard1 {
+    font-size: 15px;
+  }
+  .cardtamano {
+    width: auto;
+  }
+}/*# sourceMappingURL=styles.css.map */

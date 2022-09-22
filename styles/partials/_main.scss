@@ -1,0 +1,219 @@
+/* CONTENIDO PRINCIPAL */
+
+main {
+    background-image: url(../img/blancotextura.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.titulo1 {
+    font-size: 70px;
+    line-height: 65px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    background-image: url(../img/fondonaranja2.jpg);
+    background-size: contain;
+    color: $color-secondary;
+
+}
+
+.itf {
+    border-radius: 100px;
+    width: 75px;
+    height: 75px;
+}
+
+.bord1 {
+    border: 2px solid $color-tertiary;
+    padding: 30px;
+
+}
+
+.promocion1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    border: 3px solid $color-tertiary;
+    margin: auto;
+    width: 500px;
+    color: $color-tertiary;
+    background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
+}
+
+.t1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    border: 3px solid $color-tertiary;
+    border-radius: 30px;
+    color: $color-primary;
+    background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
+}
+
+.textohistoria {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: $color-secondary;
+    color: $color-primary;
+    font-size: 17px;
+    border: 2px solid $color-tertiary;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 25px;
+
+}
+
+.p2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.c3 {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+}
+
+
+.fotogaleria {
+    border-radius: 15px;
+    width: 1000px;
+    height: 400px;
+}
+
+.fotogaleria2 {
+    border-radius: 30px;
+}
+
+.c4 {
+    display: flex;
+    width: 350px;
+    height: 450px;
+    margin: auto;
+}
+
+.c1 {
+    display: flex;
+    width: 700px;
+    height: 600px;
+    margin: auto;
+
+}
+
+.c2 {
+    border-radius: 30px;
+
+}
+
+.texto11 {
+    display: flex;
+    color: $color-primary;
+    border: 3px solid $color-tertiary;
+    background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
+    border-radius: 30px;
+    padding: 30px;
+    font-size: 25px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    width: 500px;
+}
+
+.flecha2 {
+    display: flex;
+    filter: brightness(1.2);
+    mix-blend-mode: multiply;
+    width: 150px;
+    height: 100px;
+    margin: auto;
+}
+
+.formulario1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
+    border-radius: 15px;
+    border: 3px solid $color-tertiary;
+    margin: auto;
+    width: 500px;
+}
+
+.form1 {
+    font-size: 20px;
+    color: $color-secondary;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 15px;
+    border-color: $color-primary;
+
+    &:hover {
+        color: $color-primary;
+        background-color: $color-secondary;
+        border-color: $color-tertiary;
+    }
+}
+
+
+.textoform {
+    color: $color-primary;
+    text-decoration: underline;
+}
+
+
+.fotocard1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    height: 500px;
+    background-color: $color-secondary;
+
+}
+
+.textcard {
+    color: $color-primary;
+    font-size: 45px;
+    font-family: 'Permanent Marker', cursive;
+    border: 1px solid $color-secondary;
+}
+
+.textcard1 {
+    color: $color-primary;
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.fondocard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: $color-secondary;
+
+}
+
+.cardtamano {
+    width: auto;
+}

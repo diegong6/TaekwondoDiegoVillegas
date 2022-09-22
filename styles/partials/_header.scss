@@ -1,0 +1,60 @@
+/* HEADER */
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 15px 60px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/fondonegrotextura.jpg);
+    background-size: contain;
+}
+
+.p4 {
+    width: 250px;
+    height: 200px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 20px;
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: $color-primary;
+    color: $color-secondary;
+    border: 3px outset $color-tertiary;
+    margin: 20px;
+}
+
+.navtexto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: $color-secondary;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 17px;
+    border: 2px solid $color-primary;
+    border-radius: 30px;
+    transition: 0.5s;
+
+    &:hover {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: $color-primary;
+        border: 2px solid $color-secondary;
+        background-color: $color-secondary;
+        border-radius: 30px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+
+    }
+}
