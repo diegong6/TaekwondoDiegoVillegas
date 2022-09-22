@@ -1,13 +1,4 @@
-/*POR DEFECTO*/
-* {
-    margin: 0.05%;
-    padding: 0.05%;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
+@import "../styles/partials/default";
 @import "../styles/partials/colors";
 @import "../styles/partials/fonts";
 @import "../styles/partials/header";
