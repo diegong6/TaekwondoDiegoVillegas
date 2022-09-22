@@ -1,0 +1,30 @@
+/* PIE DE PAGINA */
+
+footer {
+    color: $color-secondary;
+    background-image: url(../img/fondonaranja2.jpg);
+    background-size: contain;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.p1 {
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.iconored {
+    width: 50px;
+    height: 50px;
+    transition: 0.2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.footer1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: $color-secondary;
+}

@@ -1,0 +1,257 @@
+/*MOBILE*/
+
+@media screen and (max-width: 1165px) {
+
+    .fotocard1 {
+        width: 700px;
+        height: 400px;
+
+    }
+}
+
+@media screen and (max-width: 995px) {
+
+    .fotocard1 {
+        width: 600px;
+        height: 300px;
+
+    }
+
+    .textcard {
+        font-size: 15px;
+    }
+
+    .textcard1 {
+        font-size: 15px;
+    }
+
+    .cardtamano {
+        display: flex;
+        width: 700px;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 15px 60px;
+        justify-content: space-around;
+        align-items: center;
+        background-image: url(../img/fondonegrotextura.jpg);
+        background-size: contain;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 10px;
+
+        }
+
+    }
+
+
+
+    .nav1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 30px;
+        background-color: $color-primary;
+        color: $color-secondary;
+        border: 3px outset $color-tertiary;
+
+    }
+
+    .navtexto {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: $color-secondary;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        border-radius: 15px;
+        transition: 0.5s;
+        padding: 10px;
+
+        &:active {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: $color-primary;
+            border: 2px solid $color-secondary;
+            background-color: $color-secondary;
+            border-radius: 15px;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 20px;
+
+        }
+    }
+
+    .p4 {
+        width: 200px;
+        height: 150px;
+        border-radius: 25px;
+
+    }
+
+
+    .itf {
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .titulo1 {
+        font-size: 20px;
+        line-height: 65px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-image: url(../img/fondonaranja2.jpg);
+        background-size: contain;
+        color: $color-secondary;
+
+    }
+
+    .promocion1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+        border: 3px solid $color-tertiary;
+        margin: auto;
+        width: 250px;
+        color: $color-tertiary;
+        background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
+    }
+
+
+    .iconored {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer1 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 10px;
+        color: $color-secondary;
+    }
+
+    .p1 {
+        font-size: 15px;
+    }
+
+    .textohistoria {
+        display: flex;
+        justify-content: center;
+        background-color: $color-secondary;
+        color: $color-primary;
+        font-size: 15px;
+        border: 2px solid $color-tertiary;
+        border-radius: 30px;
+        text-decoration: none;
+        padding: 25px;
+
+    }
+
+    .fotogaleria {
+        border-radius: 15px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .c3 {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin: auto;
+    }
+
+    .t1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        width: 200px;
+        padding: 20px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        border: 3px solid $color-tertiary;
+        border-radius: 30px;
+        color: $color-primary;
+        background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
+    }
+
+    .c1 {
+        display: flex;
+        width: 300px;
+        height: 225px;
+        margin: auto;
+
+    }
+
+
+    .c4 {
+        display: flex;
+        width: 250px;
+        height: 350px;
+        margin: auto;
+    }
+
+    .texto11 {
+        display: flex;
+        color: $color-primary;
+        border: 3px solid $color-tertiary;
+        background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
+        border-radius: 30px;
+        padding: 30px;
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        width: 275px;
+    }
+
+    .formulario1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
+        border-radius: 15px;
+        border: 3px solid $color-tertiary;
+        margin: auto;
+        width: 300px;
+    }
+
+
+    .fotocard1 {
+        width: 250px;
+        height: 150px;
+
+    }
+
+    .textcard {
+        font-size: 15px;
+    }
+
+    .textcard1 {
+        font-size: 15px;
+    }
+
+    .cardtamano {
+        width: auto;
+    }
+}
