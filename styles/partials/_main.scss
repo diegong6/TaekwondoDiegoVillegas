@@ -17,7 +17,7 @@ main {
     font-family: 'Titan One', cursive;
     background-image: url(../img/fondonaranja2.jpg);
     background-size: contain;
-    color: $color-secondary;
+    color: map-get($colores, color-secondary);
 
 }
 
@@ -28,7 +28,7 @@ main {
 }
 
 .bord1 {
-    border: 2px solid $color-tertiary;
+    border: 2px solid map-get($colores, color-tertiary);
     padding: 30px;
 
 }
@@ -40,10 +40,10 @@ main {
     padding: 20px;
     font-family: 'Permanent Marker', cursive;
     font-size: 35px;
-    border: 3px solid $color-tertiary;
+    border: 3px solid map-get($colores, color-tertiary);
     margin: auto;
     width: 500px;
-    color: $color-tertiary;
+    color: map-get($colores, color-tertiary);
     background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
 }
 
@@ -56,9 +56,9 @@ main {
     padding: 20px;
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
-    border: 3px solid $color-tertiary;
-    border-radius: 30px;
-    color: $color-primary;
+    border: 3px solid map-get($colores, color-tertiary);
+    @extend %borderRadius;
+    color: map-get($colores, color-primary);
     background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
 }
 
@@ -66,11 +66,11 @@ main {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: $color-secondary;
-    color: $color-primary;
+    background-color: map-get($colores, color-secondary);
+    color: map-get($colores, color-primary);
     font-size: 17px;
-    border: 2px solid $color-tertiary;
-    border-radius: 30px;
+    border: 2px solid map-get($colores, color-tertiary);
+    @extend %borderRadius;
     text-decoration: none;
     padding: 25px;
 
@@ -118,16 +118,16 @@ main {
 }
 
 .c2 {
-    border-radius: 30px;
+    @extend %borderRadius;
 
 }
 
 .texto11 {
     display: flex;
-    color: $color-primary;
-    border: 3px solid $color-tertiary;
+    color: map-get($colores, color-primary);
+    border: 3px solid map-get($colores, color-tertiary);
     background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
-    border-radius: 30px;
+    @extend %borderRadius;
     padding: 30px;
     font-size: 25px;
     margin: auto;
@@ -153,30 +153,30 @@ main {
     align-items: center;
     background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
     border-radius: 15px;
-    border: 3px solid $color-tertiary;
+    border: 3px solid map-get($colores, color-tertiary);
     margin: auto;
     width: 500px;
 }
 
 .form1 {
     font-size: 20px;
-    color: $color-secondary;
+    color: map-get($colores, color-secondary);
     margin-top: 30px;
     cursor: pointer;
     transition: 0.5s;
     border-radius: 15px;
-    border-color: $color-primary;
+    border-color: map-get($colores, color-primary);
 
     &:hover {
-        color: $color-primary;
-        background-color: $color-secondary;
-        border-color: $color-tertiary;
+        color: map-get($colores, color-primary);
+        background-color: map-get($colores, color-secondary);
+        border-color: map-get($colores, color-tertiary);
     }
 }
 
 
 .textoform {
-    color: $color-primary;
+    color: map-get($colores, color-primary);
     text-decoration: underline;
 }
 
@@ -188,19 +188,19 @@ main {
     margin: auto;
     width: auto;
     height: 500px;
-    background-color: $color-secondary;
+    background-color: map-get($colores, color-secondary);
 
 }
 
 .textcard {
-    color: $color-primary;
+    color: map-get($colores, color-primary);
     font-size: 45px;
     font-family: 'Permanent Marker', cursive;
-    border: 1px solid $color-secondary;
+    border: 1px solid map-get($colores, color-secondary);
 }
 
 .textcard1 {
-    color: $color-primary;
+    color: map-get($colores, color-primary);
     font-size: 25px;
     font-family: 'Permanent Marker', cursive;
 }
@@ -210,10 +210,15 @@ main {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    background-color: $color-secondary;
+    background-color: map-get($colores, color-secondary);
 
 }
 
 .cardtamano {
     width: auto;
+}
+
+
+.buttoninfo {
+    @include buttonlocal ($backColor: map-get($colores, color-secondary));
 }

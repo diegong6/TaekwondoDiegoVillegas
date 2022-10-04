@@ -13,7 +13,12 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/*FONTS*/ /* HEADER */
+/*FONTS*/
+.buttoninfo, .texto11, .c2, .textohistoria, .t1, .navtexto:hover, .navtexto, .nav1 {
+  border-radius: 30px;
+}
+
+/* HEADER */
 header {
   display: flex;
   width: 100%;
@@ -39,7 +44,6 @@ header {
   display: flex;
   justify-content: center;
   text-align: center;
-  border-radius: 30px;
   background-color: #fff;
   color: #000000;
   border: 3px outset #ffd700;
@@ -54,7 +58,6 @@ header {
   font-family: "Permanent Marker", cursive;
   font-size: 17px;
   border: 2px solid #fff;
-  border-radius: 30px;
   transition: 0.5s;
 }
 .navtexto:hover {
@@ -64,7 +67,6 @@ header {
   color: #fff;
   border: 2px solid #000000;
   background-color: #000000;
-  border-radius: 30px;
   font-family: "Permanent Marker", cursive;
   font-size: 20px;
 }
@@ -124,7 +126,6 @@ main {
   font-family: "Permanent Marker", cursive;
   font-size: 30px;
   border: 3px solid #ffd700;
-  border-radius: 30px;
   color: #fff;
   background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
 }
@@ -137,7 +138,6 @@ main {
   color: #fff;
   font-size: 17px;
   border: 2px solid #ffd700;
-  border-radius: 30px;
   text-decoration: none;
   padding: 25px;
 }
@@ -181,16 +181,11 @@ main {
   margin: auto;
 }
 
-.c2 {
-  border-radius: 30px;
-}
-
 .texto11 {
   display: flex;
   color: #fff;
   border: 3px solid #ffd700;
   background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
-  border-radius: 30px;
   padding: 30px;
   font-size: 25px;
   margin: auto;
@@ -276,6 +271,25 @@ main {
   width: auto;
 }
 
+.buttoninfo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 350px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  background-color: #000000;
+  padding: 20px;
+  color: #fff;
+  font-family: "Permanent Marker", cursive;
+  transition: 0.5s;
+}
+.buttoninfo:hover {
+  background-color: #ffd700;
+  color: #000000;
+}
+
 /* PIE DE PAGINA */
 footer {
   color: #000000;
@@ -351,7 +365,6 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    border-radius: 30px;
     background-color: #fff;
     color: #000000;
     border: 3px outset #ffd700;
@@ -430,7 +443,6 @@ footer {
     color: #fff;
     font-size: 15px;
     border: 2px solid #ffd700;
-    border-radius: 30px;
     text-decoration: none;
     padding: 25px;
   }
@@ -455,7 +467,6 @@ footer {
     font-family: "Permanent Marker", cursive;
     font-size: 15px;
     border: 3px solid #ffd700;
-    border-radius: 30px;
     color: #fff;
     background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
   }
@@ -476,7 +487,6 @@ footer {
     color: #fff;
     border: 3px solid #ffd700;
     background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
-    border-radius: 30px;
     padding: 30px;
     font-size: 20px;
     margin: auto;

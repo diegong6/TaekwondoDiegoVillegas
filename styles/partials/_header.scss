@@ -27,10 +27,10 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    border-radius: 30px;
-    background-color: $color-primary;
-    color: $color-secondary;
-    border: 3px outset $color-tertiary;
+    @extend %borderRadius;
+    background-color: map-get($colores, color-primary);
+    color: map-get($colores, color-secondary);
+    border: 3px outset map-get($colores, color-tertiary);
     margin: 20px;
 }
 
@@ -38,21 +38,21 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    color: $color-secondary;
+    color: map-get($colores, color-secondary);
     font-family: 'Permanent Marker', cursive;
     font-size: 17px;
-    border: 2px solid $color-primary;
-    border-radius: 30px;
+    border: 2px solid map-get($colores, color-primary);
+    @extend %borderRadius;
     transition: 0.5s;
 
     &:hover {
         display: flex;
         justify-content: center;
         text-align: center;
-        color: $color-primary;
-        border: 2px solid $color-secondary;
-        background-color: $color-secondary;
-        border-radius: 30px;
+        color: map-get($colores, color-primary);
+        border: 2px solid map-get($colores, color-secondary);
+        background-color: map-get($colores, color-secondary);
+        @extend %borderRadius;
         font-family: 'Permanent Marker', cursive;
         font-size: 20px;
 
