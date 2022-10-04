@@ -1,7 +1,7 @@
 /* PIE DE PAGINA */
 
 footer {
-    color: $color-secondary;
+    color: map-get($colores, color-secondary);
     background-image: url(../img/fondonaranja2.jpg);
     background-size: contain;
     text-align: center;
@@ -26,5 +26,5 @@ footer {
 .footer1 {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    color: $color-secondary;
+    color: map-get($colores, color-secondary);
 }

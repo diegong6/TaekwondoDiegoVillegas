@@ -17,6 +17,7 @@
 
     }
 
+
     .textcard {
         font-size: 15px;
     }
@@ -63,18 +64,17 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        border-radius: 30px;
-        background-color: $color-primary;
-        color: $color-secondary;
-        border: 3px outset $color-tertiary;
-
+        @extend %borderRadius;
+        background-color: map-get($colores, color-primary);
+        color: map-get($colores, color-secondary);
+        border: 3px outset map-get($colores, color-tertiary);
     }
 
     .navtexto {
         display: flex;
         justify-content: center;
         text-align: center;
-        color: $color-secondary;
+        color: map-get($colores, color-secondary);
         font-family: 'Permanent Marker', cursive;
         font-size: 15px;
         border-radius: 15px;
@@ -85,9 +85,9 @@
             display: flex;
             justify-content: center;
             text-align: center;
-            color: $color-primary;
-            border: 2px solid $color-secondary;
-            background-color: $color-secondary;
+            color: map-get($colores, color-primary);
+            border: 2px solid map-get($colores, color-secondary);
+            background-color: map-get($colores, color-secondary);
             border-radius: 15px;
             font-family: 'Permanent Marker', cursive;
             font-size: 20px;
@@ -118,7 +118,7 @@
         text-align: center;
         background-image: url(../img/fondonaranja2.jpg);
         background-size: contain;
-        color: $color-secondary;
+        color: map-get($colores, color-secondary);
 
     }
 
@@ -129,10 +129,10 @@
         padding: 20px;
         font-family: 'Permanent Marker', cursive;
         font-size: 20px;
-        border: 3px solid $color-tertiary;
+        border: 3px solid map-get($colores, color-tertiary);
         margin: auto;
         width: 250px;
-        color: $color-tertiary;
+        color: map-get($colores, color-tertiary);
         background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
     }
 
@@ -145,7 +145,7 @@
     .footer1 {
         font-family: 'Raleway', sans-serif;
         font-size: 10px;
-        color: $color-secondary;
+        color: map-get($colores, color-secondary);
     }
 
     .p1 {
@@ -155,11 +155,11 @@
     .textohistoria {
         display: flex;
         justify-content: center;
-        background-color: $color-secondary;
-        color: $color-primary;
+        background-color: map-get($colores, color-secondary);
+        color: map-get($colores, color-primary);
         font-size: 15px;
-        border: 2px solid $color-tertiary;
-        border-radius: 30px;
+        border: 2px solid map-get($colores, color-tertiary);
+        @extend %borderRadius;
         text-decoration: none;
         padding: 25px;
 
@@ -187,9 +187,9 @@
         padding: 20px;
         font-family: 'Permanent Marker', cursive;
         font-size: 15px;
-        border: 3px solid $color-tertiary;
-        border-radius: 30px;
-        color: $color-primary;
+        border: 3px solid map-get($colores, color-tertiary);
+        @extend %borderRadius;
+        color: map-get($colores, color-primary);
         background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
     }
 
@@ -211,10 +211,10 @@
 
     .texto11 {
         display: flex;
-        color: $color-primary;
+        color: map-get($colores, color-primary);
         border: 3px solid $color-tertiary;
         background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
-        border-radius: 30px;
+        @extend %borderRadius;
         padding: 30px;
         font-size: 20px;
         margin: auto;
@@ -231,7 +231,7 @@
         align-items: center;
         background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
         border-radius: 15px;
-        border: 3px solid $color-tertiary;
+        border: 3px solid map-get($colores, color-tertiary);
         margin: auto;
         width: 300px;
     }

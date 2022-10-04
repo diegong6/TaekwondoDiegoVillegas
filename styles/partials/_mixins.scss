@@ -1,0 +1,23 @@
+@mixin buttonlocal ($backColor) {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 350px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: $backColor;
+    padding: 20px;
+    color: map-get($colores, color-primary);
+    font-family: 'Permanent Marker', cursive;
+    @extend %borderRadius;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: map-get($colores, color-tertiary);
+        color: map-get($colores, color-secondary);
+    }
+
+}
+
+/* Agrego un mixin para cumplir con la consigna /*
