@@ -3,16 +3,33 @@
 @media screen and (max-width: 1165px) {
 
     .fotocard1 {
-        width: 700px;
+        width: 930px;
         height: 400px;
 
     }
+
+    .cardtamano {
+        display: flex;
+        width: auto;
+        justify-content: center;
+        margin: auto;
+
+    }
+
 }
 
 @media screen and (max-width: 995px) {
 
+    .c1 {
+        display: flex;
+        width: 500px;
+        height: 475px;
+        margin: auto;
+
+    }
+
     .fotocard1 {
-        width: 600px;
+        width: 595px;
         height: 300px;
 
     }
@@ -28,9 +45,8 @@
 
     .cardtamano {
         display: flex;
-        width: 700px;
+        width: 600px;
         justify-content: center;
-        margin: auto;
 
     }
 
@@ -236,8 +252,8 @@
 
 
     .fotocard1 {
-        width: 250px;
-        height: 150px;
+        width: 350px;
+        height: 240px;
 
     }
 
@@ -252,4 +268,73 @@
     .cardtamano {
         width: auto;
     }
+
+    .buttoninfo {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+
+    .fotocard1 {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .cardtamano {
+        width: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 370px) {
+
+    .texto11 {
+        display: flex;
+        color: map-get($colores, color-primary);
+        border: 3px solid $color-tertiary;
+        background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
+        padding: 30px;
+        font-size: 15px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        width: 200px;
+    }
+
+    .c1 {
+        display: flex;
+        width: 250px;
+        height: 200px;
+        margin: auto;
+
+    }
+
+    .c3 {
+        display: flex;
+        width: 250px;
+        height: 250px;
+        margin: auto;
+    }
+
+    .c4 {
+        display: flex;
+        width: 200px;
+        height: 300px;
+        margin: auto;
+    }
+
+    .fotocard1 {
+        width: 225px;
+        height: 140px;
+
+    }
+
+    .cardtamano {
+        width: auto;
+    }
+
 }
