@@ -23,7 +23,7 @@
     .c1 {
         display: flex;
         width: 500px;
-        height: 475px;
+        height: 400px;
         margin: auto;
 
     }
@@ -271,6 +271,21 @@
 
     .buttoninfo {
         font-size: 15px;
+    }
+
+    .pcarrousel {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        max-width: 800px;
+        border: 2px solid map-get($colores, color-secondary);
+        @extend %borderRadius;
+        color: map-get($colores, color-primary);
+        font-family: 'Permanent Marker', cursive;
+        font-size: 20px;
+        background-color: map-get($colores, color-secondary);
+    
     }
 }
 

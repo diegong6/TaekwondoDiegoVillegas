@@ -14,7 +14,7 @@
 }
 
 /*FONTS*/
-.buttoninfo, .texto11, .c2, .textohistoria, .t1, .navtexto:hover, .navtexto, .nav1 {
+.pcarrousel, .buttoninfo, .texto11, .c2, .textohistoria, .t1, .navtexto:hover, .navtexto, .nav1 {
   border-radius: 30px;
 }
 
@@ -178,7 +178,7 @@ main {
 .c1 {
   display: flex;
   width: 900px;
-  height: 900px;
+  height: 700px;
   margin: auto;
 }
 
@@ -292,6 +292,19 @@ main {
   color: #000000;
 }
 
+.pcarrousel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  max-width: 800px;
+  border: 2px solid #000000;
+  color: #fff;
+  font-family: "Permanent Marker", cursive;
+  font-size: 35px;
+  background-color: #000000;
+}
+
 /* PIE DE PAGINA */
 footer {
   color: #000000;
@@ -339,7 +352,7 @@ footer {
   .c1 {
     display: flex;
     width: 500px;
-    height: 475px;
+    height: 400px;
     margin: auto;
   }
   .fotocard1 {
@@ -534,6 +547,18 @@ footer {
   }
   .buttoninfo {
     font-size: 15px;
+  }
+  .pcarrousel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    border: 2px solid #000000;
+    color: #fff;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    background-color: #000000;
   }
 }
 @media screen and (max-width: 420px) {
