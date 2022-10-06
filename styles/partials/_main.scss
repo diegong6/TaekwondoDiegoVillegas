@@ -112,7 +112,7 @@ main {
 .c1 {
     display: flex;
     width: 900px;
-    height: 900px;
+    height: 700px;
     margin: auto;
 
 }
@@ -222,4 +222,19 @@ main {
 
 .buttoninfo {
     @include buttonlocal ($backColor: map-get($colores, color-secondary));
+}
+
+.pcarrousel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    border: 2px solid map-get($colores, color-secondary);
+    @extend %borderRadius;
+    color: map-get($colores, color-primary);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 35px;
+    background-color: map-get($colores, color-secondary);
+
 }
