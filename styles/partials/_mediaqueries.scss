@@ -1,6 +1,14 @@
 /*MOBILE*/
 
-@media screen and (max-width: 1165px) {
+@media screen and (max-width: 1178px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    .p4 {
+        margin: auto;
+    }
 
     .fotocard1 {
         width: 930px;
@@ -285,7 +293,7 @@
         font-family: 'Permanent Marker', cursive;
         font-size: 20px;
         background-color: map-get($colores, color-secondary);
-    
+
     }
 }
 

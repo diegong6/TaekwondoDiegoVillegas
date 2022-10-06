@@ -23,7 +23,6 @@ header {
   display: flex;
   width: auto;
   padding: 5px 0px;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background-color: #000000;
@@ -35,7 +34,7 @@ header {
   height: 200px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: auto;
+  margin-left: 100px;
   padding: 10px;
 }
 .p4:hover {
@@ -336,7 +335,13 @@ footer {
 }
 
 /*MOBILE*/
-@media screen and (max-width: 1165px) {
+@media screen and (max-width: 1178px) {
+  header {
+    flex-direction: column;
+  }
+  .p4 {
+    margin: auto;
+  }
   .fotocard1 {
     width: 930px;
     height: 400px;
