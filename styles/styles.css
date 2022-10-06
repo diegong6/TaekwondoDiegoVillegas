@@ -21,12 +21,12 @@
 /* HEADER */
 header {
   display: flex;
-  width: 100%;
-  padding: 15px 60px;
-  justify-content: space-between;
+  width: auto;
+  padding: 5px 0px;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  background-image: url(../img/fondonegrotextura.jpg);
-  background-size: contain;
+  background-color: #000000;
 }
 
 .p4 {
@@ -34,7 +34,8 @@ header {
   height: 200px;
   border-radius: 50px;
   transition: 0.5s;
-  margin: 20px;
+  margin: auto;
+  padding: 10px;
 }
 .p4:hover {
   transform: scale(1.1);
@@ -46,17 +47,17 @@ header {
   text-align: center;
   background-color: #fff;
   color: #000000;
-  border: 3px outset #ffd700;
-  margin: 20px;
+  border: 3px outset #000000;
+  margin: 15px;
 }
 
 .navtexto {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
   color: #000000;
   font-family: "Permanent Marker", cursive;
-  font-size: 17px;
+  font-size: 30px;
   border: 2px solid #fff;
   transition: 0.5s;
 }
@@ -68,7 +69,6 @@ header {
   border: 2px solid #000000;
   background-color: #000000;
   font-family: "Permanent Marker", cursive;
-  font-size: 20px;
 }
 
 /* CONTENIDO PRINCIPAL */
@@ -176,8 +176,8 @@ main {
 
 .c1 {
   display: flex;
-  width: 700px;
-  height: 600px;
+  width: 900px;
+  height: 900px;
   margin: auto;
 }
 
@@ -268,7 +268,8 @@ main {
 }
 
 .cardtamano {
-  width: auto;
+  width: 1105px;
+  margin: auto;
 }
 
 .buttoninfo {
@@ -347,13 +348,12 @@ footer {
 @media screen and (max-width: 750px) {
   header {
     display: flex;
+    width: auto;
+    padding: 5px 0px;
     flex-direction: column;
-    width: 100%;
-    padding: 15px 60px;
     justify-content: space-around;
     align-items: center;
-    background-image: url(../img/fondonegrotextura.jpg);
-    background-size: contain;
+    background-color: #000000;
   }
   header ul {
     display: flex;
@@ -367,7 +367,7 @@ footer {
     text-align: center;
     background-color: #fff;
     color: #000000;
-    border: 3px outset #ffd700;
+    border: 3px outset #000000;
   }
   .navtexto {
     display: flex;
@@ -389,7 +389,7 @@ footer {
     background-color: #000000;
     border-radius: 15px;
     font-family: "Permanent Marker", cursive;
-    font-size: 20px;
+    font-size: 15px;
   }
   .p4 {
     width: 200px;

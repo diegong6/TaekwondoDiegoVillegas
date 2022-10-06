@@ -2,12 +2,12 @@
 
 header {
     display: flex;
-    width: 100%;
-    padding: 15px 60px;
-    justify-content: space-between;
+    width: auto;
+    padding: 5px 0px;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    background-image: url(../img/fondonegrotextura.jpg);
-    background-size: contain;
+    background-color: map-get($colores, color-secondary);
 }
 
 .p4 {
@@ -15,7 +15,8 @@ header {
     height: 200px;
     border-radius: 50px;
     transition: 0.5s;
-    margin: 20px;
+    margin: auto;
+    padding: 10px;
 
     &:hover {
         transform: scale(1.1);
@@ -27,20 +28,20 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    @extend %borderRadius;
     background-color: map-get($colores, color-primary);
     color: map-get($colores, color-secondary);
-    border: 3px outset map-get($colores, color-tertiary);
-    margin: 20px;
+    border: 3px outset map-get($colores, color-secondary);
+    @extend %borderRadius;
+    margin: 15px;
 }
 
 .navtexto {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
     color: map-get($colores, color-secondary);
     font-family: 'Permanent Marker', cursive;
-    font-size: 17px;
+    font-size: 30px;
     border: 2px solid map-get($colores, color-primary);
     @extend %borderRadius;
     transition: 0.5s;
@@ -54,7 +55,6 @@ header {
         background-color: map-get($colores, color-secondary);
         @extend %borderRadius;
         font-family: 'Permanent Marker', cursive;
-        font-size: 20px;
 
     }
 }
