@@ -164,11 +164,45 @@
         height: 30px;
     }
 
+    footer {
+
+        background-size: auto;
+
+    }
+
     .footer1 {
         font-family: 'Raleway', sans-serif;
         font-size: 10px;
-        color: map-get($colores, color-secondary);
+        color: map-get($colores, color-primary);
     }
+
+
+    .iconopagfooter {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        width: 100px;
+        @extend %borderRadius;
+        transition: 0.5s;
+
+        &:hover {
+            transform: scale(1.1);
+
+        }
+
+    }
+
+    .pcontactfot {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 10px;
+        color: map-get($colores, color-primary);
+        @extend %borderRadius;
+        border: 1px solid map-get($colores, color-secondary);
+        background-color: map-get($colores, color-secondary);
+        max-width: 150px;
+        margin: auto;
+    }
+
 
     .p1 {
         font-size: 15px;
@@ -295,10 +329,33 @@
         background-color: map-get($colores, color-secondary);
 
     }
+
+    .buttoninfo {
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
 
+    .itf {
+        border-radius: 100px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .formulario1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
+        border-radius: 15px;
+        border: 3px solid map-get($colores, color-tertiary);
+        margin: auto;
+        width: 250px;
+    }
 
     .fotocard1 {
         width: 300px;

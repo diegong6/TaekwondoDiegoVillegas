@@ -10,6 +10,7 @@
     padding: 20px;
     color: map-get($colores, color-primary);
     font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
     @extend %borderRadius;
     transition: 0.5s;
 
@@ -19,4 +20,3 @@
     }
 
 }
-

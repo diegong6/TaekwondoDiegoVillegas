@@ -222,6 +222,7 @@ main {
 
 .buttoninfo {
     @include buttonlocal ($backColor: map-get($colores, color-secondary));
+    text-decoration: none;
 }
 
 .pcarrousel {

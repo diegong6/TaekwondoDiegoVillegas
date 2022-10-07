@@ -27,5 +27,36 @@ footer {
 .footer1 {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
-    color: map-get($colores, color-secondary);
+    color: map-get($colores, color-primary);
+    padding: 5px;
+    @extend %borderRadius;
+    border: 1px solid map-get($colores, color-secondary);
+    background-color: map-get($colores, color-secondary);
+
+}
+
+.iconopagfooter {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 200px;
+    @extend %borderRadius;
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(1.1);
+
+    }
+
+}
+
+.pcontactfot {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+    color: map-get($colores, color-primary);
+    @extend %borderRadius;
+    border: 1px solid map-get($colores, color-secondary);
+    background-color: map-get($colores, color-secondary);
+    max-width: 300px;
+    margin: auto;
 }
