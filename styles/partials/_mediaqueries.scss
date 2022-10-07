@@ -182,7 +182,7 @@
         justify-content: center;
         margin: auto;
         width: 100px;
-        @extend %borderRadius;
+        border-radius: 20px;
         transition: 0.5s;
 
         &:hover {

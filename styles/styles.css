@@ -498,6 +498,7 @@ footer {
     justify-content: center;
     margin: auto;
     width: 100px;
+    border-radius: 20px;
     transition: 0.5s;
   }
   .iconopagfooter:hover {
