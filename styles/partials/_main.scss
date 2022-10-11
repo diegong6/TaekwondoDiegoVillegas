@@ -189,6 +189,33 @@ main {
     width: auto;
     height: 500px;
     background-color: map-get($colores, color-secondary);
+    transition: 0.1s;
+
+    &:hover {
+        opacity: 1;
+        -webkit-animation: flash 1.5s;
+        animation: flash 1.5s;
+    }
+
+    @-webkit-keyframes flash {
+        0% {
+            opacity: .4;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes flash {
+        0% {
+            opacity: .4;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
 
 }
 
@@ -237,5 +264,4 @@ main {
     font-family: 'Permanent Marker', cursive;
     font-size: 35px;
     background-color: map-get($colores, color-secondary);
-
 }
