@@ -14,7 +14,7 @@
 }
 
 /*FONTS*/
-.pcontactfot, .iconopagfooter, .footer1, .pcarrousel, .buttoninfo, .texto11, .c2, .textohistoria, .t1, .navtexto:hover, .navtexto, .nav1 {
+.iconopagfooter, .footer1, .formunew, .pcarrousel, .buttoninfo, .texto11, .c2, .textohistoria, .t1, .navtexto:hover, .navtexto, .nav1 {
   border-radius: 30px;
 }
 
@@ -203,46 +203,13 @@ main {
   margin: auto;
 }
 
-.formulario1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
-  border-radius: 15px;
-  border: 3px solid #ffd700;
-  margin: auto;
-  width: 500px;
-}
-
-.form1 {
-  font-size: 20px;
-  color: #000000;
-  margin-top: 30px;
-  cursor: pointer;
-  transition: 0.5s;
-  border-radius: 15px;
-  border-color: #fff;
-}
-.form1:hover {
-  color: #fff;
-  background-color: #000000;
-  border-color: #ffd700;
-}
-
-.textoform {
-  color: #fff;
-  text-decoration: underline;
-}
-
 .fotocard1 {
   display: flex;
   justify-content: center;
   text-align: center;
   margin: auto;
-  width: auto;
-  height: 500px;
+  width: 925px;
+  height: 400px;
   background-color: #000000;
   transition: 0.1s;
 }
@@ -273,12 +240,20 @@ main {
   font-size: 45px;
   font-family: "Permanent Marker", cursive;
   border: 1px solid #000000;
+  transition: 0.2s;
+}
+.textcard:hover {
+  color: #ffd700;
 }
 
 .textcard1 {
   color: #fff;
   font-size: 25px;
   font-family: "Permanent Marker", cursive;
+  transition: 0.2s;
+}
+.textcard1:hover {
+  color: #ffd700;
 }
 
 .fondocard {
@@ -290,7 +265,8 @@ main {
 }
 
 .cardtamano {
-  width: 1105px;
+  width: 930px;
+  height: 500px;
   margin: auto;
 }
 
@@ -326,6 +302,23 @@ main {
   font-family: "Permanent Marker", cursive;
   font-size: 35px;
   background-color: #000000;
+}
+
+.formunew {
+  border: 3px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  padding: 30px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.textoform {
+  color: #000000;
+  font-family: "Permanent Marker", cursive;
 }
 
 /* PIE DE PAGINA */
@@ -382,6 +375,15 @@ footer {
   margin: auto;
 }
 
+.divfooter {
+  border: 2px solid;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  margin: auto;
+  width: 500px;
+  padding: 15px;
+}
+
 /*MOBILE*/
 @media screen and (max-width: 1178px) {
   header {
@@ -391,14 +393,11 @@ footer {
     margin: auto;
   }
   .fotocard1 {
-    width: 930px;
+    width: 925px;
     height: 400px;
   }
   .cardtamano {
-    display: flex;
-    width: auto;
-    justify-content: center;
-    margin: auto;
+    width: 930px;
   }
 }
 @media screen and (max-width: 995px) {
@@ -409,7 +408,7 @@ footer {
     margin: auto;
   }
   .fotocard1 {
-    width: 595px;
+    width: 590px;
     height: 300px;
   }
   .textcard {
@@ -419,9 +418,8 @@ footer {
     font-size: 15px;
   }
   .cardtamano {
-    display: flex;
-    width: 600px;
-    justify-content: center;
+    width: 595px;
+    height: 410px;
   }
 }
 @media screen and (max-width: 750px) {
@@ -596,21 +594,9 @@ footer {
     justify-content: center;
     width: 275px;
   }
-  .formulario1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
-    border-radius: 15px;
-    border: 3px solid #ffd700;
-    margin: auto;
-    width: 300px;
-  }
   .fotocard1 {
-    width: 350px;
-    height: 240px;
+    width: 345px;
+    height: 150px;
   }
   .textcard {
     font-size: 15px;
@@ -619,7 +605,8 @@ footer {
     font-size: 15px;
   }
   .cardtamano {
-    width: auto;
+    width: 350px;
+    height: 240px;
   }
   .buttoninfo {
     font-size: 15px;
@@ -639,6 +626,10 @@ footer {
   .buttoninfo {
     font-size: 13px;
   }
+  .divfooter {
+    width: auto;
+    border: none;
+  }
 }
 @media screen and (max-width: 420px) {
   .itf {
@@ -646,24 +637,12 @@ footer {
     width: 25px;
     height: 25px;
   }
-  .formulario1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background-image: linear-gradient(to right, #000000, rgb(82, 76, 76));
-    border-radius: 15px;
-    border: 3px solid #ffd700;
-    margin: auto;
-    width: 250px;
-  }
   .fotocard1 {
-    width: 300px;
-    height: 200px;
+    width: 315px;
+    height: 130px;
   }
   .cardtamano {
-    width: auto;
+    width: 320px;
   }
 }
 @media screen and (max-width: 370px) {
@@ -698,10 +677,10 @@ footer {
     margin: auto;
   }
   .fotocard1 {
-    width: 225px;
-    height: 140px;
+    width: 220px;
+    height: 100px;
   }
   .cardtamano {
-    width: auto;
+    width: 225px;
   }
 }/*# sourceMappingURL=styles.css.map */

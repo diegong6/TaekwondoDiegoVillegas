@@ -11,16 +11,14 @@
     }
 
     .fotocard1 {
-        width: 930px;
+        width: 925px;
         height: 400px;
 
     }
 
     .cardtamano {
-        display: flex;
-        width: auto;
-        justify-content: center;
-        margin: auto;
+        
+        width: 930px;
 
     }
 
@@ -37,7 +35,7 @@
     }
 
     .fotocard1 {
-        width: 595px;
+        width: 590px;
         height: 300px;
 
     }
@@ -52,9 +50,8 @@
     }
 
     .cardtamano {
-        display: flex;
-        width: 600px;
-        justify-content: center;
+        width: 595px;
+        height: 410px;
 
     }
 
@@ -196,7 +193,6 @@
         font-family: 'Permanent Marker', cursive;
         font-size: 10px;
         color: map-get($colores, color-primary);
-        @extend %borderRadius;
         border: 1px solid map-get($colores, color-secondary);
         background-color: map-get($colores, color-secondary);
         max-width: 150px;
@@ -279,23 +275,10 @@
         width: 275px;
     }
 
-    .formulario1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
-        border-radius: 15px;
-        border: 3px solid map-get($colores, color-tertiary);
-        margin: auto;
-        width: 300px;
-    }
-
 
     .fotocard1 {
-        width: 350px;
-        height: 240px;
+        width: 345px;
+        height: 150px;
 
     }
 
@@ -308,7 +291,8 @@
     }
 
     .cardtamano {
-        width: auto;
+        width: 350px;
+        height: 240px;
     }
 
     .buttoninfo {
@@ -334,6 +318,11 @@
         font-size: 13px;
     }
 
+    .divfooter {
+        width: auto;
+        border: none;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
@@ -344,27 +333,15 @@
         height: 25px;
     }
 
-    .formulario1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        background-image: linear-gradient(to right, $color-secondary, rgb(82, 76, 76));
-        border-radius: 15px;
-        border: 3px solid map-get($colores, color-tertiary);
-        margin: auto;
-        width: 250px;
-    }
 
     .fotocard1 {
-        width: 300px;
-        height: 200px;
+        width: 315px;
+        height: 130px;
 
     }
 
     .cardtamano {
-        width: auto;
+        width: 320px;
     }
 
 }
@@ -408,13 +385,13 @@
     }
 
     .fotocard1 {
-        width: 225px;
-        height: 140px;
+        width: 220px;
+        height: 100px;
 
     }
 
     .cardtamano {
-        width: auto;
+        width: 225px;
     }
 
 }

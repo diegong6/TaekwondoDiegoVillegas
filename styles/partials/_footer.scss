@@ -54,9 +54,17 @@ footer {
     font-family: 'Permanent Marker', cursive;
     font-size: 20px;
     color: map-get($colores, color-primary);
-    @extend %borderRadius;
     border: 1px solid map-get($colores, color-secondary);
     background-color: map-get($colores, color-secondary);
     max-width: 300px;
     margin: auto;
+}
+
+.divfooter{
+border: 2px solid;
+border-top-right-radius: 30px;
+border-top-left-radius: 30px;
+margin: auto;
+width: 500px;
+padding: 15px;
 }
