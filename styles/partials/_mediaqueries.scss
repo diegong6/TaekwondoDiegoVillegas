@@ -151,8 +151,8 @@
         border: 3px solid map-get($colores, color-tertiary);
         margin: auto;
         width: 250px;
-        color: map-get($colores, color-tertiary);
-        background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
+        color: map-get($colores, color-primary);
+        background-image: map-get($colores, color-secondary);
     }
 
 
@@ -305,7 +305,7 @@
         text-align: center;
         margin: auto;
         max-width: 800px;
-        border: 2px solid map-get($colores, color-secondary);
+        border: 2px solid map-get($colores, color-tertiary);
         @extend %borderRadius;
         color: map-get($colores, color-primary);
         font-family: 'Permanent Marker', cursive;
@@ -394,4 +394,32 @@
         width: 225px;
     }
 
+    .promocion1 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        border: 3px solid map-get($colores, color-tertiary);
+        margin: auto;
+        width: 250px;
+        color: map-get($colores, color-primary);
+        background-image: map-get($colores, color-secondary);
+    }
+
+    .pcarrousel {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        max-width: 800px;
+        border: 2px solid map-get($colores, color-tertiary);
+        @extend %borderRadius;
+        color: map-get($colores, color-primary);
+        font-family: 'Permanent Marker', cursive;
+        font-size: 15px;
+        background-color: map-get($colores, color-secondary);
+
+    }
 }

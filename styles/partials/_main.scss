@@ -43,8 +43,8 @@ main {
     border: 3px solid map-get($colores, color-tertiary);
     margin: auto;
     width: 500px;
-    color: map-get($colores, color-tertiary);
-    background-image: linear-gradient(to right, $color-secondary, $colorGradiet);
+    color: map-get($colores, color-primary);
+    background-color: map-get($colores, color-secondary);
 }
 
 .t1 {
@@ -153,6 +153,7 @@ main {
     margin: auto;
     width: 925px;
     height: 400px;
+    @extend %borderRadius;
     background-color: map-get($colores, color-secondary);
     transition: 0.1s;
 
@@ -189,6 +190,7 @@ main {
     font-size: 45px;
     font-family: 'Permanent Marker', cursive;
     border: 1px solid map-get($colores, color-secondary);
+    @extend %borderRadius;
     transition: 0.2s;
 
     &:hover {
@@ -201,6 +203,7 @@ main {
     color: map-get($colores, color-primary);
     font-size: 25px;
     font-family: 'Permanent Marker', cursive;
+    @extend %borderRadius;
     transition: 0.2s;
 
     &:hover {
@@ -215,13 +218,14 @@ main {
     text-align: center;
     flex-direction: column;
     background-color: map-get($colores, color-secondary);
-
+    @extend %borderRadius;
 }
 
 .cardtamano {
     width: 930px;
     height: 500px;
     margin: auto;
+    @extend %borderRadius;
 }
 
 
@@ -236,7 +240,7 @@ main {
     text-align: center;
     margin: auto;
     max-width: 800px;
-    border: 2px solid map-get($colores, color-secondary);
+    border: 2px solid map-get($colores, color-tertiary);
     @extend %borderRadius;
     color: map-get($colores, color-primary);
     font-family: 'Permanent Marker', cursive;
