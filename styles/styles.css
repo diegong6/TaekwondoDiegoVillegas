@@ -153,7 +153,7 @@ main {
 .c3 {
   display: flex;
   width: 600px;
-  height: 600px;
+  height: auto;
   margin: auto;
 }
 
@@ -554,7 +554,7 @@ footer {
   .c3 {
     display: flex;
     width: 300px;
-    height: 300px;
+    height: auto;
     margin: auto;
   }
   .t1 {
@@ -666,8 +666,8 @@ footer {
   }
   .c3 {
     display: flex;
-    width: 250px;
-    height: 250px;
+    width: 215px;
+    height: auto;
     margin: auto;
   }
   .c4 {
