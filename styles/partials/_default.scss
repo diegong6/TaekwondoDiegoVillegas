@@ -6,4 +6,28 @@
     text-decoration: none;
     box-sizing: border-box;
     font-family: 'Source Sans Pro', sans-serif;
+
+
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ffd700;
+    ;
+    border-radius: 20px;
+    border: 3px solid #000000;
+
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #ffd700 #000000;
+
 }
