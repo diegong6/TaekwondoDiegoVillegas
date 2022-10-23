@@ -230,7 +230,6 @@ main {
   margin: auto;
   width: 925px;
   height: 400px;
-  background-color: #000000;
   transition: 0.1s;
 }
 .fotocard1:hover {

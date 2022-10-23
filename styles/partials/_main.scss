@@ -154,7 +154,6 @@ main {
     width: 925px;
     height: 400px;
     @extend %borderRadius;
-    background-color: map-get($colores, color-secondary);
     transition: 0.1s;
 
     &:hover {
