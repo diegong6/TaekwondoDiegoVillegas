@@ -33,6 +33,7 @@ header {
     border: 3px outset map-get($colores, color-secondary);
     @extend %borderRadius;
     margin: 15px;
+    padding: 3px;
 }
 
 .navtexto {
@@ -40,8 +41,8 @@ header {
     justify-content: space-between;
     text-align: center;
     color: map-get($colores, color-secondary);
-    font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
+    font-family: 'Titan One', cursive;
+    font-size: 25px;
     border: 2px solid map-get($colores, color-primary);
     @extend %borderRadius;
     transition: 0.5s;
@@ -54,7 +55,7 @@ header {
         border: 2px solid map-get($colores, color-secondary);
         background-color: map-get($colores, color-secondary);
         @extend %borderRadius;
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'Titan One', cursive;
 
     }
 }

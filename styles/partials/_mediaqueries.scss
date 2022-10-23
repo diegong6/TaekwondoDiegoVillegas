@@ -94,11 +94,12 @@
         justify-content: center;
         text-align: center;
         color: map-get($colores, color-secondary);
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'Titan One', cursive;
         font-size: 15px;
         border-radius: 15px;
-        transition: 0.5s;
+        border: none;
         padding: 10px;
+        transition: 0.5s;
 
         &:active {
             display: flex;
@@ -108,7 +109,7 @@
             border: 2px solid map-get($colores, color-secondary);
             background-color: map-get($colores, color-secondary);
             border-radius: 15px;
-            font-family: 'Permanent Marker', cursive;
+            font-family: 'Titan One', cursive;
             font-size: 15px;
 
         }
@@ -306,7 +307,6 @@
         margin: auto;
         max-width: 800px;
         border: 2px solid map-get($colores, color-tertiary);
-        @extend %borderRadius;
         color: map-get($colores, color-primary);
         font-family: 'Permanent Marker', cursive;
         font-size: 20px;
@@ -415,7 +415,6 @@
         margin: auto;
         max-width: 800px;
         border: 2px solid map-get($colores, color-tertiary);
-        @extend %borderRadius;
         color: map-get($colores, color-primary);
         font-family: 'Permanent Marker', cursive;
         font-size: 15px;

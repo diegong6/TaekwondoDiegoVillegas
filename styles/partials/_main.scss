@@ -218,7 +218,6 @@ main {
     text-align: center;
     flex-direction: column;
     background-color: map-get($colores, color-secondary);
-    @extend %borderRadius;
 }
 
 .cardtamano {
@@ -241,7 +240,6 @@ main {
     margin: auto;
     max-width: 800px;
     border: 2px solid map-get($colores, color-tertiary);
-    @extend %borderRadius;
     color: map-get($colores, color-primary);
     font-family: 'Permanent Marker', cursive;
     font-size: 35px;
@@ -259,10 +257,22 @@ main {
     margin: auto;
     padding: 30px;
     font-family: 'Permanent Marker', cursive;
+    background-color: map-get($colores, color-secondary);
 
 }
 
 .textoform {
+    color: map-get($colores, color-primary);
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.textoform1 {
     color: map-get($colores, color-secondary);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.textoform2 {
+    color: map-get($colores, color-primary);
     font-family: 'Permanent Marker', cursive;
 }

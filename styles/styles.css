@@ -14,7 +14,7 @@
 }
 
 /*FONTS*/
-.iconopagfooter, .footer1, .formunew, .pcarrousel, .buttoninfo, .cardtamano, .fondocard, .textcard1, .textcard, .fotocard1, .texto11, .c2, .textohistoria, .t1, .navtexto:hover, .navtexto, .nav1 {
+.iconopagfooter, .footer1, .formunew, .buttoninfo, .cardtamano, .textcard1, .textcard, .fotocard1, .texto11, .c2, .textohistoria, .t1, .navtexto:hover, .navtexto, .nav1 {
   border-radius: 30px;
 }
 
@@ -49,6 +49,7 @@ header {
   color: #000000;
   border: 3px outset #000000;
   margin: 15px;
+  padding: 3px;
 }
 
 .navtexto {
@@ -56,8 +57,8 @@ header {
   justify-content: space-between;
   text-align: center;
   color: #000000;
-  font-family: "Permanent Marker", cursive;
-  font-size: 30px;
+  font-family: "Titan One", cursive;
+  font-size: 25px;
   border: 2px solid #fff;
   transition: 0.5s;
 }
@@ -68,7 +69,7 @@ header {
   color: #fff;
   border: 2px solid #000000;
   background-color: #000000;
-  font-family: "Permanent Marker", cursive;
+  font-family: "Titan One", cursive;
 }
 
 /* CONTENIDO PRINCIPAL */
@@ -314,10 +315,22 @@ main {
   margin: auto;
   padding: 30px;
   font-family: "Permanent Marker", cursive;
+  background-color: #000000;
 }
 
 .textoform {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.textoform1 {
   color: #000000;
+  font-family: "Permanent Marker", cursive;
+}
+
+.textoform2 {
+  color: #fff;
   font-family: "Permanent Marker", cursive;
 }
 
@@ -451,11 +464,12 @@ footer {
     justify-content: center;
     text-align: center;
     color: #000000;
-    font-family: "Permanent Marker", cursive;
+    font-family: "Titan One", cursive;
     font-size: 15px;
     border-radius: 15px;
-    transition: 0.5s;
+    border: none;
     padding: 10px;
+    transition: 0.5s;
   }
   .navtexto:active {
     display: flex;
@@ -465,7 +479,7 @@ footer {
     border: 2px solid #000000;
     background-color: #000000;
     border-radius: 15px;
-    font-family: "Permanent Marker", cursive;
+    font-family: "Titan One", cursive;
     font-size: 15px;
   }
   .p4 {
@@ -695,5 +709,17 @@ footer {
     width: 250px;
     color: #fff;
     background-image: #000000;
+  }
+  .pcarrousel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    border: 2px solid #ffd700;
+    color: #fff;
+    font-family: "Permanent Marker", cursive;
+    font-size: 15px;
+    background-color: #000000;
   }
 }/*# sourceMappingURL=styles.css.map */
